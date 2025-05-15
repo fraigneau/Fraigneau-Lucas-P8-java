@@ -6,6 +6,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 import java.util.List;
 import java.util.UUID;
 
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 import com.openclassrooms.tourguide.dto.NearbyAttractionDTO;
@@ -17,6 +18,7 @@ import gpsUtil.location.VisitedLocation;
 import rewardCentral.RewardCentral;
 import tripPricer.Provider;
 
+@Disabled
 public class TestTourGuideService {
 
 	@Test

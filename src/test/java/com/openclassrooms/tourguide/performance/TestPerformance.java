@@ -68,6 +68,8 @@ public class TestPerformance {
 
 		CompletableFuture.allOf(futures.toArray(new CompletableFuture[0])).join();
 
+		CompletableFuture.allOf(futures.toArray(new CompletableFuture[0])).join();
+
 		stopWatch.stop();
 		tourGuideService.tracker.stopTracking();
 
